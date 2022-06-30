@@ -1,9 +1,9 @@
 import React from "react";
-import { View, TextInput, Button } from "react-native";
+import { StyleSheet, View, TextInput, Button } from "react-native";
 
 export default function LoginForm() {
   return (
-    <View>
+    <View styles={styles.container}>
       <TextInput placeholder="Nombre" />
       <TextInput placeholder="Apellido" />
       <TextInput placeholder="DNI" />
@@ -16,3 +16,12 @@ export default function LoginForm() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
+  }
+});
