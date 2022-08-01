@@ -1,9 +1,9 @@
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import React from 'react';
+import {View, Text} from 'react-native';
 
-export default function LoginForm() {
-  return (
-    <View styles={styles.container}>
+export default function InformacionScreen(){
+  return(
+    <View>
       <Text>Informacion</Text>
 
       <Text>Que eventos se realizan?</Text>
@@ -25,12 +25,3 @@ export default function LoginForm() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center"
-  }
-});

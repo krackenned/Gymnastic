@@ -1,14 +1,14 @@
 import React from "react";
 import { View, Text } from "react-native";
 import LoginForm from "./UI/components/LoginForm";
-import Informacion from "./UI/components/Informacion";
+import InformacionScreen from "./UI/screens/InformacionScreen";
 
 export default function App() {
   return (
     <View>
       <div class="container">
         <div class="pantalla_info">
-          <Informacion />
+          <InformacionScreen />
         </div>
 
         <Text> </Text>
