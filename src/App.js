@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native";
 import LoginForm from "./UI/components/LoginForm";
-import InformacionScreen from "./UI/screens/InformacionScreen";
+import InformacionScreen from "./UI/components/InformacionScreen";
 
 export default function App() {
   return (

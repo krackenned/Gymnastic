@@ -1,18 +1,14 @@
 import React from "react";
-import { View, TextInput, Button } from "react-native";
+import { View, Text } from "react-native";
+import { TextField, Button } from "@material-ui/core";
 
 export default function LoginForm() {
   return (
     <View>
-      <TextInput placeholder="Nombre" />
-      <TextInput placeholder="Apellido" />
-      <TextInput placeholder="DNI" />
-      <TextInput placeholder="Edad" />
-      <TextInput placeholder="Domicilio" />
-      <TextInput placeholder="Email" />
-      <TextInput placeholder="Sexo" />
-      <Button title="Cancelar" onPress={() => console.log("Cancelado")} />
-      <Button title="Enviar" onPress={() => console.log("Enviado")} />
+      <TextField id="filled-basic" label="Usuario" variant="filled" />
+      <TextField id="filled-basic" label="Contraseña" variant="filled" />
+      <Button variant="contained">Contained</Button>
+      <Button variant="outlined">Outlined</Button>
     </View>
   );
 }
