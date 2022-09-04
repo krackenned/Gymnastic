@@ -14,7 +14,7 @@ export default function LoginForm() {
       />
       <Button variant="contained">Enviar</Button>
       <Button variant="outlined">Cancelar</Button>
-      <Link href="#">Registrarse</Link>
+      <Link href="http://epet20.com.ar/">Registrarse</Link>
     </View>
   );
 }
