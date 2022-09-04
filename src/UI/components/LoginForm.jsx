@@ -1,14 +1,20 @@
 import React from "react";
-import { View, Text } from "react-native";
-import { TextField, Button } from "@material-ui/core";
+import { View } from "react-native";
+import { TextField, Button, Link } from "@material-ui/core";
 
 export default function LoginForm() {
   return (
     <View>
-      <TextField id="filled-basic" label="Usuario" variant="filled" />
-      <TextField id="filled-basic" label="Contraseña" variant="filled" />
-      <Button variant="contained">Contained</Button>
-      <Button variant="outlined">Outlined</Button>
+      <TextField id="outlined-basic" label="Usuario" variant="outlined" />
+      <TextField
+        id="outlined-password"
+        type="password"
+        label="Contraseña"
+        variant="outlined"
+      />
+      <Button variant="contained">Enviar</Button>
+      <Button variant="outlined">Cancelar</Button>
+      <Link href="#">Registrarse</Link>
     </View>
   );
 }
