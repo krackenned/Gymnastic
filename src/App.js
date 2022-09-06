@@ -2,6 +2,8 @@ import React from "react";
 import { View, Text } from "react-native";
 import LoginForm from "./UI/components/LoginForm";
 import InformacionScreen from "./UI/components/InformacionScreen";
+import DatosPersonales from "./UI/components/DatosPersonales";
+
 
 export default function App() {
   return (
@@ -16,6 +18,10 @@ export default function App() {
         <div class="pantalla_loginform">
           <LoginForm />
         </div>
+        <div class="pantalla_datospersonales">
+          <DatosPersonales />
+        </div>
+        
       </div>
     </View>
   );
