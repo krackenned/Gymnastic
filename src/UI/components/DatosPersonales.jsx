@@ -14,7 +14,7 @@ export default function DatosPersonales() {
       <TextField id="outlined-email" type="email" label="Email" />
       <TextField id="outlined-genero" type="genero" label="Genero" />
       <Button variant="contained">Enviar</Button>
-      <Button variant="contained">Cancelar</Button>
+      <Button variant="default">Cancelar</Button>
     </View>
   );
 }
