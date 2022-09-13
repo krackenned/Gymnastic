@@ -5,7 +5,7 @@ import { TextField } from "@material-ui/core";
 export default function HomeScreen() {
   return (
     <View>
-      <TextField id="filled-basic" label="" variant="filled" />
+      <TextField id="filled-basic" label="" variant="filled">En proceso C:...</TextField>
     </View>
   );
 }

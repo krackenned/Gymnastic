@@ -18,7 +18,7 @@ export default function App() {
         <div class="pantalla_loginform">
           <LoginForm />
         </div>
-        <div class="pantalla_datospersonales">
+        <div class="pantalla_datos_personales">
           <DatosPersonales />
         </div>
         
